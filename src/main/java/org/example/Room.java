@@ -1,6 +1,6 @@
 package org.example;
 
-class Room {
+public class Room {
     private int number;
     private double area;
     private int floor;
