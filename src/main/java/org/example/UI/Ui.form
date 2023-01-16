@@ -90,8 +90,8 @@
                 </constraints>
                 <properties>
                   <model>
-                    <item value="1"/>
-                    <item value="2"/>
+                    <item value="standard"/>
+                    <item value="premium"/>
                   </model>
                 </properties>
               </component>
@@ -111,8 +111,8 @@
                 </constraints>
                 <properties>
                   <model>
-                    <item value="1"/>
-                    <item value="2"/>
+                    <item value="unrented"/>
+                    <item value="rented"/>
                   </model>
                 </properties>
               </component>

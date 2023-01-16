@@ -145,8 +145,9 @@ public class Ui {
         currentRevenue.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String a= String.valueOf(hotel.currentRevenue());
-                currentRevenue.setText(a);
+                double a= hotel.currentRevenue();
+                System.out.println(a);
+                currentRevenue.setText("Current revenue: "+String.valueOf(a)+" VND");
             }
         });
     }

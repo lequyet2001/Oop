@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="48cff0dc-f541-4e39-83d5-9971908a7dbb" name="Changes" comment="new Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UI/Ui.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UI/Ui.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UI/Ui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UI/Ui.java" afterDir="false" />
     </list>
@@ -49,6 +48,58 @@
   }
 }</component>
   <component name="RunManager" selected="Application.Ui">
+    <configuration name="Hotel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Hotel" />
+      <module name="QLKS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ui (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.UI.Ui" />
+      <module name="QLKS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.UI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ui (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.UI.Ui" />
+      <module name="QLKS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.UI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ui (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.UI.Ui" />
+      <module name="QLKS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.UI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.UI.Ui" />
       <module name="QLKS" />
@@ -62,72 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QLKS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.UI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.UI" />
-      <option name="MAIN_CLASS_NAME" value="org.example.UI.UiTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UiTest.testAddRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QLKS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.UI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.UI" />
-      <option name="MAIN_CLASS_NAME" value="org.example.UI.UiTest" />
-      <option name="METHOD_NAME" value="testAddRoom" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ui.testAddRoom" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QLKS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.UI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.UI" />
-      <option name="MAIN_CLASS_NAME" value="org.example.UI.Ui" />
-      <option name="METHOD_NAME" value="testAddRoom" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QLKS" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Ui" />
-        <item itemvalue="JUnit.UiTest" />
-        <item itemvalue="JUnit.UiTest.testAddRoom" />
-        <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.Ui.testAddRoom" />
+        <item itemvalue="Application.Hotel" />
+        <item itemvalue="Application.Ui (4)" />
+        <item itemvalue="Application.Ui (3)" />
+        <item itemvalue="Application.Ui (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673813759759</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new Commit">
+      <created>1673874572180</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673874572180</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
