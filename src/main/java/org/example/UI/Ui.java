@@ -2,6 +2,7 @@ package org.example.UI;
 
 import org.example.Room;
 import org.example.Hotel;
+import org.testng.annotations.Test;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -10,21 +11,24 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.List;
 
+import static org.testng.AssertJUnit.assertEquals;
+
 
 public class Ui {
-    private JTextField roomArea;
-    private JTextField roomNumber;
-    private JTextField roomFloor;
-    private JComboBox roomType;
-    private JComboBox roomStatus;
+    JTextField roomArea;
+    JTextField roomNumber;
+    JTextField roomFloor;
+    JComboBox roomType;
+    JComboBox roomStatus;
     private JButton updateRoomButton;
-    private JButton addRoomButton;
+    JButton addRoomButton;
     private JButton removeRoomButton;
     private JTextField search;
     private JButton searchingForRoomsByButton2;
     private JPanel jPanel1;
     private JTable table1;
     private JButton searchingForRoomsByButton;
+    private JButton currentRevenue;
     Hotel hotel= new Hotel();
 
     private void addRoom(){
@@ -60,6 +64,7 @@ public class Ui {
         roomFloor.setText("");
         roomType.setSelectedIndex(0);
         roomStatus.setSelectedIndex(0);
+        currentRevenue.setText("Current Revenue");
     }
 
     private void showRooms() {
@@ -135,6 +140,13 @@ public class Ui {
             @Override
             public void actionPerformed(ActionEvent e) {
                 searchByArea();
+            }
+        });
+        currentRevenue.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String a= String.valueOf(hotel.currentRevenue());
+                currentRevenue.setText(a);
             }
         });
     }
