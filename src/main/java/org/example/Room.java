@@ -5,22 +5,28 @@ public class Room {
     private double area;
     private int floor;
     private String status;
-
-    public Room(int number, double area, int floor, String status) {
+    private String roomType;
+    public Room(int number, double area, int floor, String status,String roomType) {
         this.number = number;
         this.area = area;
         this.floor = floor;
         this.status = status;
+        this.roomType=roomType;
     }
 
     @Override
     public String toString() {
 
-        String a="[Room number]: " +this.number+"\n"+ "[Area]: "+ this.area+"\n"+"[Floor]: "+this.floor+"\n"+"[Status]: "+this.status;
-        return a;
+        return "[Room number]: " + this.number+"\n"+ "[Area]: "+ this.area+"\n"+"[Floor]: "+ this.floor+"\n"+"[Status]: "+ this.status;
     }
 
-    public double rentalPrice() {
+    public String getRoomType() {
+        return roomType;
+    }
+
+
+
+    public int rentalPrice() {
         return 0;
     }
 
@@ -33,7 +39,7 @@ public class Room {
     }
 
     public double getArea() {
-        return area;
+        return  area;
     }
 
     public int getFloor() {
@@ -59,4 +65,6 @@ public class Room {
     public void setStatus(String status) {
         this.status = status;
     }
+
+
 }

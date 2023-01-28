@@ -3,7 +3,7 @@
   <grid id="27dc6" binding="JPanel1" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="612" height="400"/>
+      <xy x="20" y="20" width="680" height="411"/>
     </constraints>
     <properties/>
     <border type="none"/>
@@ -24,7 +24,7 @@
             <properties/>
             <border type="none"/>
             <children>
-              <grid id="d780f" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+              <grid id="d780f" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
                 <margin top="0" left="0" bottom="0" right="0"/>
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
@@ -72,9 +72,17 @@
                       <text value="Room Status"/>
                     </properties>
                   </component>
+                  <component id="4bc7a" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Search Room By Max Price"/>
+                    </properties>
+                  </component>
                 </children>
               </grid>
-              <grid id="e3eb2" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+              <grid id="e3eb2" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
                 <margin top="0" left="0" bottom="0" right="0"/>
                 <constraints>
                   <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
@@ -122,8 +130,8 @@
                     </constraints>
                     <properties>
                       <model>
-                        <item value="1"/>
-                        <item value="2"/>
+                        <item value="Standard"/>
+                        <item value="Premium"/>
                       </model>
                     </properties>
                   </component>
@@ -137,16 +145,26 @@
                     </constraints>
                     <properties>
                       <model>
-                        <item value="1"/>
-                        <item value="2"/>
+                        <item value="Unrented"/>
+                        <item value="Rented"/>
                       </model>
                     </properties>
+                  </component>
+                  <component id="138cb" class="javax.swing.JTextField" binding="search">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <minimum-size width="200" height="30"/>
+                        <preferred-size width="200" height="30"/>
+                        <maximum-size width="200" height="30"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
                   </component>
                 </children>
               </grid>
             </children>
           </grid>
-          <grid id="6eef2" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <grid id="6eef2" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints>
               <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
@@ -154,9 +172,33 @@
             <properties/>
             <border type="none"/>
             <children>
+              <component id="ca3" class="javax.swing.JButton" binding="searchRoomByMaxPriceButton">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="200" height="30"/>
+                    <preferred-size width="200" height="30"/>
+                    <maximum-size width="200" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Search Room By Max Price"/>
+                </properties>
+              </component>
+              <component id="8736f" class="javax.swing.JButton" binding="updateRoom">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="130" height="-1"/>
+                    <preferred-size width="130" height="-1"/>
+                    <maximum-size width="130" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Update Room"/>
+                </properties>
+              </component>
               <component id="8909e" class="javax.swing.JButton" binding="searchRoomButton" default-binding="true">
                 <constraints>
-                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                     <minimum-size width="130" height="-1"/>
                     <preferred-size width="130" height="-1"/>
                     <maximum-size width="130" height="-1"/>
@@ -166,21 +208,9 @@
                   <text value="Search Room"/>
                 </properties>
               </component>
-              <component id="ca3" class="javax.swing.JButton" binding="searchRoomByMaxButton" default-binding="true">
-                <constraints>
-                  <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
-                    <minimum-size width="290" height="30"/>
-                    <preferred-size width="290" height="30"/>
-                    <maximum-size width="290" height="30"/>
-                  </grid>
-                </constraints>
-                <properties>
-                  <text value="Search Room By Max Price"/>
-                </properties>
-              </component>
               <component id="41102" class="javax.swing.JButton" binding="addRoomButton" default-binding="true">
                 <constraints>
-                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                     <minimum-size width="130" height="-1"/>
                     <preferred-size width="130" height="-1"/>
                     <maximum-size width="130" height="-1"/>
@@ -188,6 +218,18 @@
                 </constraints>
                 <properties>
                   <text value="Add Room"/>
+                </properties>
+              </component>
+              <component id="6a97f" class="javax.swing.JButton" binding="removeRoomButton" default-binding="true">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="130" height="-1"/>
+                    <preferred-size width="130" height="-1"/>
+                    <maximum-size width="130" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Remove Room"/>
                 </properties>
               </component>
             </children>

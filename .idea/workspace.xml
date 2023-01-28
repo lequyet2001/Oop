@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48cff0dc-f541-4e39-83d5-9971908a7dbb" name="Changes" comment="new Commit 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PremiumRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StandardRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UI/HotelUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UI/HotelUI.java" afterDir="false" />
+    <list default="true" id="48cff0dc-f541-4e39-83d5-9971908a7dbb" name="Changes" comment="update Class and New Ui">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractHotel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PremiumRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PremiumRoom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UI/Ui.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UI/Ui.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StandardRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StandardRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UI/HotelUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UI/HotelUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UI/HotelUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UI/HotelUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +23,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -47,9 +48,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "257",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "213",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "325",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Q2602/IdeaProjects/QLKS",
+    "last_opened_file_path": "C:/Users/Q2602/IdeaProjects/untitled",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,12 +61,51 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.HotelUI">
-    <configuration name="Hotel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Hotel" />
+    <configuration name="HotelUI (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.UI.HotelUI" />
       <module name="QLKS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.UI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelUI (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.UI.HotelUI" />
+      <module name="QLKS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.UI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelUI (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.UI.HotelUI" />
+      <module name="QLKS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.UI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelUI (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.UI.HotelUI" />
+      <module name="QLKS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.UI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,7 +118,7 @@
       <module name="QLKS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.UI.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,39 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ui (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.UI.Ui" />
-      <module name="QLKS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.UI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.UI.Ui" />
-      <module name="QLKS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.UI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.HotelUI" />
-        <item itemvalue="Application.Ui" />
-        <item itemvalue="Application.Hotel" />
-        <item itemvalue="Application.Ui (4)" />
-        <item itemvalue="Application.Ui (3)" />
+        <item itemvalue="Application.HotelUI (2)" />
+        <item itemvalue="Application.HotelUI (1)" />
+        <item itemvalue="Application.HotelUI (5)" />
+        <item itemvalue="Application.HotelUI (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673640929810</updated>
-      <workItem from="1674931737425" duration="3321000" />
+      <workItem from="1674931737425" duration="12178000" />
     </task>
     <task id="LOCAL-00001" summary="add all">
       <created>1673789550265</created>
@@ -173,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673876016221</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update Class and New Ui">
+      <created>1674935133406</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674935133406</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +216,18 @@
     <MESSAGE value="write addRoom" />
     <MESSAGE value="new Commit" />
     <MESSAGE value="new Commit 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="new Commit 2" />
+    <MESSAGE value="update Class and New Ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Class and New Ui" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/QLKS$UiTest.ic" NAME="UiTest Coverage Results" MODIFIED="1673816193581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

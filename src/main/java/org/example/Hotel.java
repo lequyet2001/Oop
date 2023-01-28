@@ -1,12 +1,14 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
-public class Hotel {
+public class Hotel extends abstractHotel {
     private  List<Room>  rooms;
     public Hotel(){
         rooms= new ArrayList<Room>();
+
     }
 
     // Thêm sửa xóa
@@ -30,7 +32,7 @@ public class Hotel {
         return "Room " + roomNumber + " not found";
     }
 
-    public String updateRoom(int roomNumber, Double area, Integer floor, String status) {
+    public String updateRoom(int roomNumber, Double area, Integer floor, String status ) {
         for (Room room : rooms) {
             if (room.getNumber() == roomNumber) {
                 if (area != null) {
@@ -42,6 +44,7 @@ public class Hotel {
                 if (status != null) {
                     room.setStatus(status);
                 }
+
                 return "Room " + roomNumber + " updated";
             }
         }
@@ -82,9 +85,7 @@ public class Hotel {
         return result;
     }
 
-
-
-    public List<Room> searchRoomByPrice(double maxPrice) {
+    public List<Room> searchRoom(double maxPrice) {
         List<Room> result = new ArrayList<Room>();
         for (Room room : rooms) {
             if (room.rentalPrice() <= maxPrice) {
