@@ -1,7 +1,9 @@
-package org.example;
+package org.example.contro;
+
+import org.example.entity.Room;
+import org.example.entity.StandardRoom;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 
 public class Hotel extends abstractHotel {

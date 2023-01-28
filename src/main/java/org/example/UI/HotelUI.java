@@ -1,9 +1,9 @@
 package org.example.UI;
 
-import org.example.Hotel;
-import org.example.PremiumRoom;
-import org.example.Room;
-import org.example.StandardRoom;
+import org.example.contro.Hotel;
+import org.example.entity.PremiumRoom;
+import org.example.entity.Room;
+import org.example.entity.StandardRoom;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -25,7 +25,7 @@ public class HotelUI {
     private JTable listRoom;
     private JButton currentRevenueButton;
     private JTextField currentRevenue;
-    private JPanel JPanel1;
+    public JPanel JPanel1;
     private JButton updateRoom;
     private JButton removeRoomButton;
     private JTextField search;
@@ -151,7 +151,6 @@ public class HotelUI {
             public void actionPerformed(ActionEvent actionEvent) {
                 searchByPrice();
             }
-
         });
         currentRevenue.addActionListener(new ActionListener() {
             @Override
@@ -160,17 +159,7 @@ public class HotelUI {
                 System.out.println(a);
                 currentRevenue.setText("Current revenue: "+String.valueOf(a)+" VND");
             }
-
         });
-
-
     }
 
-    public static void main(String[] args) {
-        JFrame frame = new JFrame("Ui");
-        frame.setContentPane(new HotelUI().JPanel1);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
-    }
 }

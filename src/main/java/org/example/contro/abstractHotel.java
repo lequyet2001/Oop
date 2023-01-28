@@ -1,4 +1,6 @@
-package org.example;
+package org.example.contro;
+
+import org.example.entity.Room;
 
 import java.util.List;
 
