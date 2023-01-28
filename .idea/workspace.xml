@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48cff0dc-f541-4e39-83d5-9971908a7dbb" name="Changes" comment="update Ui">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="48cff0dc-f541-4e39-83d5-9971908a7dbb" name="Changes" comment="add class Main">
+      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/contro/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PremiumRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/PremiumRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StandardRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/StandardRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UI/HotelUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UI/HotelUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/abstractHotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/contro/abstractHotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +149,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673640929810</updated>
-      <workItem from="1674931737425" duration="13239000" />
+      <workItem from="1674931737425" duration="14147000" />
     </task>
     <task id="LOCAL-00001" summary="add all">
       <created>1673789550265</created>
@@ -198,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674943990816</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add class Main">
+      <created>1674945074522</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674945074522</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +224,8 @@
     <MESSAGE value="new Commit 2" />
     <MESSAGE value="update Class and New Ui" />
     <MESSAGE value="update Ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Ui" />
+    <MESSAGE value="add class Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="add class Main" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
