@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48cff0dc-f541-4e39-83d5-9971908a7dbb" name="Changes" comment="new Commit">
+    <list default="true" id="48cff0dc-f541-4e39-83d5-9971908a7dbb" name="Changes" comment="new Commit 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PremiumRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StandardRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UI/HotelUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UI/HotelUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UI/Ui.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UI/Ui.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UI/Ui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UI/Ui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UI/Ui.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UI/Ui.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,20 +40,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH&quot;: &quot;257&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;252&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "257",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "213",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Q2602/IdeaProjects/QLKS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager" selected="Application.Ui">
+}]]></component>
+  <component name="RunManager" selected="Application.HotelUI">
     <configuration name="Hotel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Hotel" />
       <module name="QLKS" />
@@ -61,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ui (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.UI.Ui" />
+    <configuration name="HotelUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.UI.HotelUI" />
       <module name="QLKS" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HotelUI" />
         <item itemvalue="Application.Ui" />
         <item itemvalue="Application.Hotel" />
         <item itemvalue="Application.Ui (4)" />
         <item itemvalue="Application.Ui (3)" />
-        <item itemvalue="Application.Ui (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -131,6 +143,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673640929810</updated>
+      <workItem from="1674931737425" duration="3321000" />
     </task>
     <task id="LOCAL-00001" summary="add all">
       <created>1673789550265</created>
@@ -153,8 +166,18 @@
       <option name="project" value="LOCAL" />
       <updated>1673874572180</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new Commit 2">
+      <created>1673876016221</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673876016221</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -171,14 +194,15 @@
     <MESSAGE value="add all" />
     <MESSAGE value="write addRoom" />
     <MESSAGE value="new Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="new Commit" />
+    <MESSAGE value="new Commit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="new Commit 2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/QLKS$Main.ic" NAME="Main Coverage Results" MODIFIED="1673641182497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>org.example.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/QLKS$UiTest.ic" NAME="UiTest Coverage Results" MODIFIED="1673816193581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.UI.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/QLKS$Main.ic" NAME="Main Coverage Results" MODIFIED="1673641182497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
     </SUITE>
   </component>
 </project>

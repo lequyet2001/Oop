@@ -4,27 +4,23 @@ public class Room {
     private int number;
     private double area;
     private int floor;
-    private String roomType;
     private String status;
 
-    public Room(int number, double area, int floor, String roomType, String status) {
+    public Room(int number, double area, int floor, String status) {
         this.number = number;
         this.area = area;
         this.floor = floor;
-        this.roomType = roomType;
         this.status = status;
     }
+
+    @Override
     public String toString() {
 
-        String a="[Room number]: " +this.number+"\n"+ "[Area]: "+ this.area+"\n"+"[Floor]: "+this.floor+"\n"+"[Room type]: "+this.roomType+"\n"+"[Status]: "+this.status;
+        String a="[Room number]: " +this.number+"\n"+ "[Area]: "+ this.area+"\n"+"[Floor]: "+this.floor+"\n"+"[Status]: "+this.status;
         return a;
     }
+
     public double rentalPrice() {
-        if (this.roomType.equals("standard")) {
-            return this.area * 100000;
-        } else if (this.roomType.equals("premium")) {
-            return this.area * 150000 + this.floor * 500000;
-        }
         return 0;
     }
 
@@ -44,10 +40,6 @@ public class Room {
         return floor;
     }
 
-    public String getRoomType() {
-        return roomType;
-    }
-
     public String getStatus() {
         return status;
     }
@@ -64,12 +56,7 @@ public class Room {
         this.floor = floor;
     }
 
-    public void setRoomType(String roomType) {
-        this.roomType = roomType;
-    }
-
     public void setStatus(String status) {
         this.status = status;
     }
 }
-
