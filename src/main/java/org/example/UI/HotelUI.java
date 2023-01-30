@@ -24,7 +24,7 @@ public class HotelUI {
     private JButton searchRoomByMaxPriceButton;
     private JTable listRoom;
     private JButton currentRevenueButton;
-    private JTextField currentRevenue;
+    private JLabel currentRevenue;
     public JPanel JPanel1;
     private JButton updateRoom;
     private JButton removeRoomButton;
@@ -86,7 +86,7 @@ public class HotelUI {
         List<Room> data = hotel.searchRoom(maxPrice);
         int a=1;
         for (Room aData : data) {
-            model.addRow(new Object[]{a,aData.getNumber(), aData.getArea(), aData.getFloor(), aData.getStatus(), aData.getRoomType()});
+            model.addRow(new Object[]{a,aData.getNumber(), aData.getArea(), aData.getFloor(), aData.getStatus(), aData.getRoomType()," "+String.valueOf(aData.rentalPrice())+" VND"});
             a++;
         }
         listRoom.setModel(model);
@@ -152,11 +152,10 @@ public class HotelUI {
                 searchByPrice();
             }
         });
-        currentRevenue.addActionListener(new ActionListener() {
+        currentRevenueButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 double a= hotel.currentRevenue();
-                System.out.println(a);
                 currentRevenue.setText("Current revenue: "+String.valueOf(a)+" VND");
             }
         });

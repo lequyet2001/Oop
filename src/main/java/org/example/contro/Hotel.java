@@ -64,9 +64,9 @@ public class Hotel extends abstractHotel {
             //check roomtype
             String currRoomType;
             if (room instanceof StandardRoom){
-                currRoomType = "standard";
+                currRoomType = "Standard";
             } else {
-                currRoomType = "premium";
+                currRoomType = "Premium";
             }
 
             if (area != null && room.getArea() != area) {
@@ -101,7 +101,7 @@ public class Hotel extends abstractHotel {
     public double currentRevenue() {
         double revenue = 0;
         for (Room room : rooms) {
-            if (room.getStatus().equals("rented")) {
+            if (room.getStatus().equals("Rented")) {
                 revenue += room.rentalPrice();
             }
         }
