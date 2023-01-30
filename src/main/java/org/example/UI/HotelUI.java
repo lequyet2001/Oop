@@ -24,7 +24,7 @@ public class HotelUI {
     private JButton searchRoomByMaxPriceButton;
     private JTable listRoom;
     private JButton currentRevenueButton;
-    private JLabel currentRevenue;
+
     public JPanel JPanel1;
     private JButton updateRoom;
     private JButton removeRoomButton;
@@ -37,7 +37,6 @@ public class HotelUI {
         double area = Double.parseDouble(roomArea.getText());
         int floor = Integer.parseInt(roomFloor.getText());
         String status = (String) roomStatus.getSelectedItem();
-        System.out.println(type);
         if(Objects.equals(type, "Standard")){
             Room  room = new StandardRoom(number,area,floor,status,type);
             System.out.println(room.getRoomType());
@@ -111,7 +110,7 @@ public class HotelUI {
         roomFloor.setText("");
         roomType.setSelectedIndex(0);
         roomStatus.setSelectedIndex(0);
-        currentRevenue.setText("Current Revenue");
+        currentRevenueButton.setText("Current Revenue");
     }
 
     public HotelUI() {
@@ -156,9 +155,8 @@ public class HotelUI {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 double a= hotel.currentRevenue();
-                currentRevenue.setText("Current revenue: "+String.valueOf(a)+" VND");
+                currentRevenueButton.setText("Current revenue: "+String.valueOf(a)+" VND");
             }
         });
     }
-
 }
