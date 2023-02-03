@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48cff0dc-f541-4e39-83d5-9971908a7dbb" name="Changes" comment="update current Revenue">
+    <list default="true" id="48cff0dc-f541-4e39-83d5-9971908a7dbb" name="Changes" comment="😊">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UI/HotelUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UI/HotelUI.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UI/HotelUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UI/HotelUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +44,12 @@
     &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;true&quot;,
     &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;325&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Q2602/IdeaProjects/untitled&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/JS/AI/TIeni&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
@@ -150,7 +149,11 @@
       <option name="presentableId" value="Default" />
       <updated>1673640929810</updated>
       <workItem from="1674931737425" duration="14859000" />
-      <workItem from="1675045439838" duration="2994000" />
+      <workItem from="1675045439838" duration="8063000" />
+      <workItem from="1675148957852" duration="1496000" />
+      <workItem from="1675150950789" duration="813000" />
+      <workItem from="1675242477306" duration="398000" />
+      <workItem from="1675279079132" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="add all">
       <created>1673789550265</created>
@@ -215,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675047563924</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="😊">
+      <created>1675056700908</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675056700908</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +279,8 @@
     <MESSAGE value="add class Main" />
     <MESSAGE value="add Readme" />
     <MESSAGE value="update current Revenue" />
-    <option name="LAST_COMMIT_MESSAGE" value="update current Revenue" />
+    <MESSAGE value="" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
