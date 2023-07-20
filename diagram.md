@@ -61,11 +61,19 @@ class abstractHotel {
 }
 
 Hotel "1" *--> "rooms *" Room 
+
 Hotel  -->  abstractHotel 
+
 HotelUI  ..>  Hotel : «create»
+
 HotelUI "1" *--> "hotel 1" Hotel 
+
 HotelUI  ..>  PremiumRoom : «create»
+
 HotelUI  ..>  StandardRoom : «create»
+
 Main  ..>  HotelUI : «create»
+
 PremiumRoom  -->  Room 
+
 StandardRoom  -->  Room 

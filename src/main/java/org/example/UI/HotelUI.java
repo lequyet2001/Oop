@@ -10,6 +10,7 @@ import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumnModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
@@ -69,6 +70,7 @@ public class HotelUI {
         int floor = Integer.parseInt(roomFloor.getText());
         String status = (String) roomStatus.getSelectedItem();
         DefaultTableModel model = new DefaultTableModel(new String[]{"STT","Room Number","Room Area", "Room Floor", "Room Status", "Room Type","Room Price"}, 0);
+
         List<Room> data = hotel.searchRoom(area, floor, type, status);
         int a=1;
         for (Room aData : data) {
@@ -94,11 +96,14 @@ public class HotelUI {
     }
     private void showRooms() {
         DefaultTableModel model = new DefaultTableModel(new String[]{"STT","Room Number","Room Area", "Room Floor", "Room Status", "Room Type","Room Price"}, 0);
-        List<Room> data = hotel.showAllRooms();
+        List<Room> data =  hotel.showAllRooms();
+        List<PremiumRoom> premiumRooms=new ArrayList<>();;
         int a=1;
-        for (Room aData : data) {
-            model.addRow(new Object[]{a,aData.getNumber(), aData.getArea(), aData.getFloor(), aData.getStatus(),aData.getRoomType()," "+String.valueOf(aData.rentalPrice())+" VND"});
-            a++;
+        for (Room x : data) {
+
+                model.addRow(new Object[]{a,x.getNumber(), " "+String.valueOf(x.getArea())+" ", x.getFloor(), x.getStatus(),x.getRoomType()," "+String.valueOf(x.rentalPrice())+" VND"});
+                a++;
+
         }
         listRoom.setModel(model);
         TableColumnModel col=listRoom.getColumnModel();
@@ -155,7 +160,7 @@ public class HotelUI {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 double a= hotel.currentRevenue();
-                currentRevenueButton.setText("Current revenue: "+String.valueOf(a)+" VND");
+                currentRevenueButton.setText("Current revenue: "+ a +" VND");
             }
         });
     }

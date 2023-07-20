@@ -5,7 +5,7 @@ public class Room {
     private double area;
     private int floor;
     private String status;
-    private String roomType;
+    private final String roomType;
     public Room(int number, double area, int floor, String status,String roomType) {
         this.number = number;
         this.area = area;
@@ -27,6 +27,7 @@ public class Room {
 
 
     public int rentalPrice() {
+
         return 0;
     }
 
